@@ -3,6 +3,8 @@ Microsoft Visual Studio Solution File, Format Version 11.00
 # Visual Studio 2010
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ARCoreQuickStart", "Assembly-CSharp.csproj", "{D62BC443-2303-427A-1E7B-586CE0CF32A6}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ARCoreQuickStart", "Assembly-CSharp-firstpass.csproj", "{5F78357B-FFED-1D60-3188-B10D8DD1A6BC}"
+EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ARCoreQuickStart", "Assembly-CSharp-Editor.csproj", "{EE4AFC7D-05B6-E37D-DC25-4BC21424544E}"
 EndProject
 Global
@@ -15,6 +17,10 @@ Global
 		{D62BC443-2303-427A-1E7B-586CE0CF32A6}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{D62BC443-2303-427A-1E7B-586CE0CF32A6}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{D62BC443-2303-427A-1E7B-586CE0CF32A6}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5F78357B-FFED-1D60-3188-B10D8DD1A6BC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5F78357B-FFED-1D60-3188-B10D8DD1A6BC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5F78357B-FFED-1D60-3188-B10D8DD1A6BC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5F78357B-FFED-1D60-3188-B10D8DD1A6BC}.Release|Any CPU.Build.0 = Release|Any CPU
 		{EE4AFC7D-05B6-E37D-DC25-4BC21424544E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{EE4AFC7D-05B6-E37D-DC25-4BC21424544E}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{EE4AFC7D-05B6-E37D-DC25-4BC21424544E}.Release|Any CPU.ActiveCfg = Release|Any CPU

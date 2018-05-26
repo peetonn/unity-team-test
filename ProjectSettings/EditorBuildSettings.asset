@@ -6,5 +6,5 @@ EditorBuildSettings:
   serializedVersion: 2
   m_Scenes:
   - enabled: 1
-    path: Assets/CloudAndhors.unity
-    guid: d16010f318b7945a297520001b4ed6f7
+    path: Assets/GoogleARCore/Examples/CloudAnchor/Scenes/CloudAnchor.unity
+    guid: 83fb41cc294e74bdea57537befa00ffc

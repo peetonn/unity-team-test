@@ -9,10 +9,10 @@
     <ProductVersion>10.0.20506</ProductVersion>
     <SchemaVersion>2.0</SchemaVersion>
     <RootNamespace></RootNamespace>
-    <ProjectGuid>{EE4AFC7D-05B6-E37D-DC25-4BC21424544E}</ProjectGuid>
+    <ProjectGuid>{5F78357B-FFED-1D60-3188-B10D8DD1A6BC}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
-    <AssemblyName>Assembly-CSharp-Editor</AssemblyName>
+    <AssemblyName>Assembly-CSharp-firstpass</AssemblyName>
     <TargetFrameworkVersion>v3.5</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <BaseDirectory>Assets</BaseDirectory>
@@ -51,16 +51,8 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
-     <Compile Include="Assets\GoogleARCore\SDK\Scripts\Editor\ARCoreProjectSettingsWindow.cs" />
-     <Compile Include="Assets\GoogleARCore\SDK\Scripts\Editor\AssetHelper.cs" />
-     <Compile Include="Assets\GoogleARCore\SDK\Scripts\Editor\AugmentedImageDatabaseContextMenu.cs" />
-     <Compile Include="Assets\GoogleARCore\SDK\Scripts\Editor\AugmentedImageDatabaseInspector.cs" />
-     <Compile Include="Assets\GoogleARCore\SDK\Scripts\Editor\AugmentedImageDatabasePreprocessBuild.cs" />
-     <Compile Include="Assets\GoogleARCore\SDK\Scripts\Editor\BackgroundJobExecutor.cs" />
-     <Compile Include="Assets\GoogleARCore\SDK\Scripts\Editor\CloudAnchorPreprocessBuild.cs" />
-     <Compile Include="Assets\GoogleARCore\SDK\Scripts\Editor\RequiredOptionalPreprocessBuild.cs" />
-     <None Include="Assets\PlayServicesResolver\Editor\play-services-resolver_v1.2.64.0.txt" />
-     <None Include="Assets\GoogleARCore\Editor\AppDependencies.xml" />
+     <Compile Include="Assets\Plugins\HockeyAppUnityAndroid\HockeyAppUnity-Scripts\HockeyAppAndroid.cs" />
+     <None Include="Assets\Plugins\HockeyAppUnityAndroid\AndroidManifest.xml" />
  <Reference Include="UnityEngine.UI">
  <HintPath>/Applications/Unity/Unity.app/Contents/UnityExtensions/Unity/GUISystem/UnityEngine.UI.dll</HintPath>
  </Reference>
@@ -148,12 +140,6 @@
  <Reference Include="Google.IOSResolver_v1.2.64.0">
  <HintPath>/Users/peetonn/Documents/Work/arcore-quickstart/ARCoreQuickStart/Assets/PlayServicesResolver/Editor/Google.IOSResolver_v1.2.64.0.dll</HintPath>
  </Reference>
-  </ItemGroup>
-  <ItemGroup>
-    <ProjectReference Include="Assembly-CSharp-firstpass.csproj">
-      <Project>{5F78357B-FFED-1D60-3188-B10D8DD1A6BC}</Project>      <Name>Assembly-CSharp-firstpass</Name>    </ProjectReference>
-    <ProjectReference Include="Assembly-CSharp.csproj">
-      <Project>{D62BC443-2303-427A-1E7B-586CE0CF32A6}</Project>      <Name>Assembly-CSharp</Name>    </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
