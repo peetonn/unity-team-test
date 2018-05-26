@@ -145,6 +145,27 @@
  <Reference Include="UnityEditor.OSXStandalone.Extensions">
  <HintPath>/Applications/Unity/Unity.app/Contents/PlaybackEngines/MacStandaloneSupport/UnityEditor.OSXStandalone.Extensions.dll</HintPath>
  </Reference>
+ <Reference Include="Newtonsoft.Json">
+ <HintPath>/Users/peetonn/Documents/Work/arcore-quickstart/ARCoreQuickStart/Assets/Photon Unity Networking/Editor/PhotonNetwork/Newtonsoft.Json.dll</HintPath>
+ </Reference>
+ <Reference Include="Google.IOSResolver_v1.2.64.0">
+ <HintPath>/Users/peetonn/Documents/Work/arcore-quickstart/ARCoreQuickStart/Assets/PlayServicesResolver/Editor/Google.IOSResolver_v1.2.64.0.dll</HintPath>
+ </Reference>
+ <Reference Include="Google.JarResolver_v1.2.64.0">
+ <HintPath>/Users/peetonn/Documents/Work/arcore-quickstart/ARCoreQuickStart/Assets/PlayServicesResolver/Editor/Google.JarResolver_v1.2.64.0.dll</HintPath>
+ </Reference>
+ <Reference Include="Google.VersionHandler">
+ <HintPath>/Users/peetonn/Documents/Work/arcore-quickstart/ARCoreQuickStart/Assets/PlayServicesResolver/Editor/Google.VersionHandler.dll</HintPath>
+ </Reference>
+ <Reference Include="Google.VersionHandlerImpl_v1.2.64.0">
+ <HintPath>/Users/peetonn/Documents/Work/arcore-quickstart/ARCoreQuickStart/Assets/PlayServicesResolver/Editor/Google.VersionHandlerImpl_v1.2.64.0.dll</HintPath>
+ </Reference>
+ <Reference Include="Photon3Unity3D">
+ <HintPath>/Users/peetonn/Documents/Work/arcore-quickstart/ARCoreQuickStart/Assets/Plugins/Photon3Unity3D.dll</HintPath>
+ </Reference>
+ <Reference Include="websocket-sharp">
+ <HintPath>/Users/peetonn/Documents/Work/arcore-quickstart/ARCoreQuickStart/Assets/Plugins/WebSocket/websocket-sharp.dll</HintPath>
+ </Reference>
  <Reference Include="UnityEditor.Advertisements">
  <HintPath>/Users/peetonn/Library/Unity/cache/packages/packages.unity.com/com.unity.ads@2.0.0/Editor/UnityEditor.Advertisements.dll</HintPath>
  </Reference>
@@ -156,27 +177,6 @@
  </Reference>
  <Reference Include="UnityEditor.Purchasing">
  <HintPath>/Users/peetonn/Library/Unity/cache/packages/packages.unity.com/com.unity.purchasing@0.0.19/Editor/UnityEditor.Purchasing.dll</HintPath>
- </Reference>
- <Reference Include="Google.VersionHandlerImpl_v1.2.64.0">
- <HintPath>/Users/peetonn/Documents/Work/arcore-quickstart/ARCoreQuickStart/Assets/PlayServicesResolver/Editor/Google.VersionHandlerImpl_v1.2.64.0.dll</HintPath>
- </Reference>
- <Reference Include="Google.JarResolver_v1.2.64.0">
- <HintPath>/Users/peetonn/Documents/Work/arcore-quickstart/ARCoreQuickStart/Assets/PlayServicesResolver/Editor/Google.JarResolver_v1.2.64.0.dll</HintPath>
- </Reference>
- <Reference Include="Google.VersionHandler">
- <HintPath>/Users/peetonn/Documents/Work/arcore-quickstart/ARCoreQuickStart/Assets/PlayServicesResolver/Editor/Google.VersionHandler.dll</HintPath>
- </Reference>
- <Reference Include="Google.IOSResolver_v1.2.64.0">
- <HintPath>/Users/peetonn/Documents/Work/arcore-quickstart/ARCoreQuickStart/Assets/PlayServicesResolver/Editor/Google.IOSResolver_v1.2.64.0.dll</HintPath>
- </Reference>
- <Reference Include="Newtonsoft.Json">
- <HintPath>/Users/peetonn/Documents/Work/arcore-quickstart/ARCoreQuickStart/Assets/Photon Unity Networking/Editor/PhotonNetwork/Newtonsoft.Json.dll</HintPath>
- </Reference>
- <Reference Include="websocket-sharp">
- <HintPath>/Users/peetonn/Documents/Work/arcore-quickstart/ARCoreQuickStart/Assets/Plugins/WebSocket/websocket-sharp.dll</HintPath>
- </Reference>
- <Reference Include="Photon3Unity3D">
- <HintPath>/Users/peetonn/Documents/Work/arcore-quickstart/ARCoreQuickStart/Assets/Plugins/Photon3Unity3D.dll</HintPath>
  </Reference>
   </ItemGroup>
   <ItemGroup>
