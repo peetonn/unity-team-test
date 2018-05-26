@@ -17,10 +17,6 @@
 // </copyright>
 //-----------------------------------------------------------------------
 
-//Zoe was here
-// And Peter too...
-// Meow meow, meow meow meow!
-
 namespace GoogleARCore.Examples.CloudAnchor
 {
     using System;
